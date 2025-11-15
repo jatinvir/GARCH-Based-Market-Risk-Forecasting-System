@@ -168,14 +168,6 @@ Plots are saved under `/results/`.
 
 ---
 
-## 📝 Resume-Ready Summary
-
-You may include this in your resume:
-
-> Developed and validated a GJR-GARCH volatility forecasting system for 1-day Value-at-Risk estimation on 20 years of AAPL returns using rolling 750-day windows and statistical backtesting (Kupiec, Independence, Conditional Coverage). Achieved 4.11% empirical breach rate vs 5% target (p = 0.53). Implemented convergence-safe rolling estimation with warm starts, crisis-regime diagnostics, and performance visualizations.
-
----
-
 ## ✔ Skills Demonstrated
 
 * Time-series econometrics
