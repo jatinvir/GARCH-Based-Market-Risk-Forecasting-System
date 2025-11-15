@@ -1,0 +1,29 @@
+{
+    "datasets": {
+        "features": "df_ml",
+        "results_logistic": "results_logistic",
+        "results_xgb": "results_xgb"
+    },
+    "allowed_features": [
+        "mom5",
+        "mom10",
+        "vol10",
+        "vol20",
+        "z_ma20",
+        "bbp20",
+        "logreturn",
+        "adj_close"
+    ],
+    "metrics": ["acc", "auc", "brier"],
+    "models": ["logistic", "xgb"],
+    "glossary": {
+        "momentum": "Momemtnum (mom5, mom10) measures the rate of change of the stock price over 5 and 10 days respectively.",
+        "volatility": "Volatility (vol10, vol20) indicates the degree of variation of stock prices over 10 and 20 days respectively.",
+        "z_score_ma20": "Z-score of the 20-day moving average (z_ma20) standardizes the moving average to identify how far the current price is from the average.",
+        "bollinger_band_percent_b": "Bollinger Band Percent B (bbp20) shows the position of the stock price relative to the Bollinger Bands over a 20-day period.",
+        "log_return": "Log Return (logreturn) is the natural logarithm of the ratio of consecutive closing prices, used to measure the return of the stock.",
+        "adjusted_close": "Adjusted Close (adj_close) is the closing price of the stock adjusted for dividends and stock splits.",
+        "auc": "Area Under the Receiver Operating Characteristic Curve (AUC) measures the ability of a model to distinguish between classes.",
+        "brier_score": "Brier Score measures the accuracy of probabilistic predictions; lower scores indicate better accuracy."
+    }
+}
